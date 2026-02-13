@@ -1,17 +1,18 @@
 {
-  "name": "Gruvbox Dark Medium",
+  "name": "Gruvbox Dark Hard Islands",
   "dark": true,
-  "author": "Vincent Parizet",
-  "editorScheme": "/gruvbox_dark_medium.xml",
+  "author": "Vincent Parizet, Sebastian Jones",
+  "editorScheme": "/gruvbox_dark_hard_islands.xml",
   "colors": {
     "bg0": "#282828",
+    "bg0_hh": "#101415",
     "bg0_h": "#1d2021",
     "bg0_s": "#32302f",
     "bg1": "#3c3836",
     "bg2": "#504945",
     "bg3": "#665c54",
     "bg4": "#7c6f64",
-    "bg": "#282828",
+    "bg": "#1d2021",
 
     "fg0": "#fbf1c7",
     "fg1": "#ebdbb2",
@@ -51,7 +52,7 @@
       "selectionBackgroundInactive": "bg0_s",
       "selectionInactiveBackground": "bg0_s",
 
-      "selectedBackground": "bg0_h",
+      "selectedBackground": "bg0_hh",
       "selectedForeground": "fg0",
       "selectedInactiveBackground": "bg0_s",
       "selectedBackgroundInactive": "bg0_s",
@@ -59,7 +60,7 @@
       "hoverBackground": "#28282866",
 
       "borderColor": "bg2",
-      "disabledBorderColor": "bg0_h",
+      "disabledBorderColor": "bg0_hh",
 
       "separatorColor": "bg2"
     },
@@ -102,15 +103,20 @@
       "underlineColor": "blue1",
       "inactiveMaskColor": "#28282866"
     },
+    "MainToolbar": {
+      "borderColor": "#FFFFFF00"
+    },
     "ToolWindow": {
       "Header": {
         "background": "bg0_s",
         "inactiveBackground": "bg"
       },
-
       "HeaderTab": {
-        "selectedInactiveBackground": "bg0_h",
-        "hoverInactiveBackground": "bg0_h"
+        "selectedInactiveBackground": "bg0_hh",
+        "hoverInactiveBackground": "bg0_hh"
+      },
+      "Stripe": {
+        "borderColor": "#FFFFFF00"
       }
     },
     "Table": {
@@ -148,6 +154,9 @@
         "hoverThumbColor": "bg1",
         "hoverTrackColor": "bg0",
         "thumbBorderColor": "bg2"
+      },
+      "StatusBar": {
+        "borderColor": "#FFFFFF00"
       },
       "Mac" : {
         "Transparent": {

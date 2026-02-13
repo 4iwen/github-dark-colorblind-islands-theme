@@ -24,45 +24,13 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     id="layer2">
-    <rect
-       y="0.0094826454"
-       x="-6.6576582e-08"
-       height="10.590555"
-       width="10.649021"
-       id="rect4533"
-       style="fill:#282828;fill-opacity:1;stroke-width:0.23150054" />
+    <g id="layer2">
+    <rect y="0.0094826454" x="-6.6576582e-08" height="10.590555" width="10.649021" id="rect4533" style="fill:#282828;fill-opacity:1;stroke-width:0.23150054" rx="0.8" ry="0.8"></rect>
   </g>
-  <g
-     id="layer3">
-    <rect
-       y="0.90014482"
-       x="0.66145819"
-       height="1.984375"
-       width="9.260417"
-       id="rect4542"
-       style="fill:#cc241d;fill-opacity:1;stroke-width:0.31899732" />
-    <rect
-       y="3.1663682"
-       x="0.66145819"
-       height="1.984375"
-       width="9.260417"
-       id="rect4542-7"
-       style="fill:#b8bb26;fill-opacity:1;stroke-width:0.31899732" />
-    <rect
-       y="7.6988134"
-       x="0.66145819"
-       height="1.984375"
-       width="9.260417"
-       id="rect4542-7-7"
-       style="fill:#fabd2e;fill-opacity:1;stroke-width:0.31899735" />
-    <rect
-       y="5.4325905"
-       x="0.66145819"
-       height="1.984375"
-       width="9.260417"
-       id="rect4542-7-7-9"
-       style="fill:#458588;fill-opacity:1;stroke-width:0.31899732" />
+  <g id="layer3">
+    <rect y="0.90014482" x="0.561458" height="6.26875" width="1.984375" id="rect4542" style="fill:#458588;fill-opacity:1;stroke-width:0.31899732" rx="0.8" ry="0.8"></rect>
+    <rect y="0.90014482" x="7.945833" height="8.76875" width="1.984375" id="rect4542-7-7-9" style="fill:#cc241d;fill-opacity:1;stroke-width:0.31899732" rx="0.8" ry="0.8"></rect>
+    <rect y="0.90014482" x="3.070833" height="6.26875" width="4.360417" id="rect4542-7" style="fill:#b8bb26;fill-opacity:1;stroke-width:0.31899732" rx="0.8" ry="0.8"></rect>
+    <rect y="7.6988134" x="0.561458" height="1.984375" width="6.960417" id="rect4542-7-7" style="fill:#fabd2e;fill-opacity:1;stroke-width:0.31899735" rx="0.8" ry="0.8"></rect>
   </g>
 </svg>

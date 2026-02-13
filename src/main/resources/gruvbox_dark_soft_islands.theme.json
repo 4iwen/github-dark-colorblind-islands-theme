@@ -1,8 +1,8 @@
 {
-  "name": "Gruvbox Dark Soft",
+  "name": "Gruvbox Dark Soft Islands",
   "dark": true,
-  "author": "Vincent Parizet",
-  "editorScheme": "/gruvbox_dark_soft.xml",
+  "author": "Vincent Parizet, Sebastian Jones",
+  "editorScheme": "/gruvbox_dark_soft_islands.xml",
   "colors": {
     "bg0": "#282828",
     "bg0_h": "#1d2021",
@@ -103,17 +103,21 @@
       "underlineColor": "blue1",
       "inactiveMaskColor": "#28282866"
     },
+    "MainToolbar": {
+      "borderColor": "#FFFFFF00"
+    },
     "ToolWindow": {
       "Header": {
         "background": "bg0_s",
         "inactiveBackground": "bg"
       },
-
       "HeaderTab": {
         "selectedInactiveBackground": "bg0_h",
         "hoverInactiveBackground": "bg0_h"
-      }
-    },
+      },
+      "Stripe": {
+        "borderColor": "#FFFFFF00"
+      }    },
     "Table": {
       "stripeColor": "bg0_s",
       "lightSelectionForeground": "fg0",
@@ -149,6 +153,9 @@
         "hoverThumbColor": "bg1",
         "hoverTrackColor": "bg0",
         "thumbBorderColor": "bg2"
+      },
+      "StatusBar": {
+        "borderColor": "#FFFFFF00"
       },
       "Mac" : {
         "Transparent": {
