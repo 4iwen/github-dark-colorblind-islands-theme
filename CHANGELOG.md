@@ -4,6 +4,12 @@
 
 ## Unreleased
 
+## 0.7.0
+### Changed
+- Fork from https://plugins.jetbrains.com/plugin/20558-gruvbox--theme
+- Themes now utilize Islands
+- Updated build script
+
 ## 0.6.3
 ### Changed
 - Inline parameters highlighting tweak (thanks @eprst)

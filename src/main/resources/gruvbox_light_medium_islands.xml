@@ -1,11 +1,11 @@
-<scheme name="Gruvbox Light Soft" version="142" parent_scheme="Default">
+<scheme name="Gruvbox Light Medium Islands" version="142" parent_scheme="Default">
   <colors>
     <option name="ADDED_LINES_COLOR" value="b8bb26" />
     <option name="ANNOTATIONS_COLOR" value="928374" />
     <option name="CARET_ROW_COLOR" value="ebdbb2" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="f2e5bc" />
-    <option name="DOCUMENTATION_COLOR" value="f2e5bc" />
-    <option name="GUTTER_BACKGROUND" value="f2e5bc" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="fbf1c7" />
+    <option name="DOCUMENTATION_COLOR" value="fbf1c7" />
+    <option name="GUTTER_BACKGROUND" value="fbf1c7" />
     <option name="INDENT_GUIDE" value="bdae93" />
     <option name="LINE_NUMBERS_COLOR" value="928374" />
     <option name="METHOD_SEPARATORS_COLOR" value="2a2a2a" />
@@ -168,7 +168,9 @@
       </value>
     </option>
     <option name="CONSOLE_NORMAL_OUTPUT">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="3c3836" />
+      </value>
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
@@ -187,7 +189,9 @@
       </value>
     </option>
     <option name="CONSOLE_USER_INPUT">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="3c3836" />
+      </value>
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
       <value>
@@ -474,7 +478,7 @@
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="f2e5bc" />
+        <option name="FOREGROUND" value="fbf1c7" />
         <option name="BACKGROUND" value="3c3836" />
       </value>
     </option>
@@ -975,7 +979,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="282828" />
-        <option name="BACKGROUND" value="f2e5bc" />
+        <option name="BACKGROUND" value="fbf1c7" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

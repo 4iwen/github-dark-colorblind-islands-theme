@@ -1,8 +1,9 @@
 {
-  "name": "Gruvbox Light Hard",
+  "name": "Gruvbox Light Soft Islands",
   "dark": false,
-  "author": "Vincent Parizet, Marius Helf",
-  "editorScheme": "/gruvbox_light_hard.xml",
+  "author": "Vincent Parizet, Marius Helf, Sebastian Jones",
+  "editorScheme": "/gruvbox_light_soft_islands.xml",
+  "parentTheme": "Islands Light",
   "colors": {
     "bg0": "#fbf1c7",
     "bg0_h": "#f9f5d7",
@@ -11,7 +12,8 @@
     "bg2": "#d5c4a1",
     "bg3": "#bdae93",
     "bg4": "#a89984",
-    "bg": "#f9f5d7",
+    "bg": "#f2e5bc",
+
     "fg0": "#282828",
     "fg1": "#3c3836",
     "fg2": "#504945",
@@ -44,7 +46,7 @@
       "infoForeground": "fg",
 
       "lightSelectionBackground": "bg1",
-      "selectionBackground": "bg1",
+      "selectionBackground": "bg2",
       "selectionForeground": "fg0",
 
       "selectionBackgroundInactive": "bg1",
@@ -101,17 +103,21 @@
       "underlineColor": "blue1",
       "inactiveMaskColor": "#fbf1c766"
     },
+    "MainToolbar": {
+      "borderColor": "#FFFFFF00"
+    },
     "ToolWindow": {
       "Header": {
         "background": "bg0_s",
         "inactiveBackground": "bg"
       },
-
       "HeaderTab": {
         "selectedInactiveBackground": "bg0_h",
         "hoverInactiveBackground": "bg0_h"
-      }
-    },
+      },
+      "Stripe": {
+        "borderColor": "#FFFFFF00"
+      }    },
     "Table": {
       "stripeColor": "bg0_s",
       "lightSelectionForeground": "fg0",
@@ -147,6 +153,9 @@
         "hoverThumbColor": "bg1",
         "hoverTrackColor": "bg0",
         "thumbBorderColor": "bg2"
+      },
+      "StatusBar": {
+        "borderColor": "#FFFFFF00"
       },
       "Mac" : {
         "Transparent": {

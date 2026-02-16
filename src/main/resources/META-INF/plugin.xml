@@ -1,10 +1,10 @@
 <idea-plugin>
-    <id>com.github.lonre.gruvbox-intellij-theme</id>
-    <name>Gruvbox - Theme</name>
-    <vendor>Lonre Wang</vendor>
+    <id>com.github.sebastian-abj.gruvbox-islands-theme</id>
+    <name>Gruvbox - Islands</name>
+    <vendor>Sebastian Jones</vendor>
 
     <description><![CDATA[
-    Fork from https://plugins.jetbrains.com/plugin/12310-gruvbox-theme.
+    Fork from https://plugins.jetbrains.com/plugin/20558-gruvbox--theme.
 
     gruvbox is heavily inspired by badwolf, jellybeans and solarized.
 
@@ -18,12 +18,12 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
-        <themeProvider id="3ef5925f-3169-46ca-ba19-96a58f317428" path="/gruvbox_dark_medium.theme.json"/>
-        <themeProvider id="72be8783-3a4d-4044-bb03-191e61d21ed3" path="/gruvbox_dark_soft.theme.json"/>
-        <themeProvider id="761771ad-a164-482d-96ee-fca15bf0a238" path="/gruvbox_dark_hard.theme.json"/>
-        <themeProvider id="1eaba802-33fc-4d50-a13d-616387745dc0" path="/gruvbox_light_medium.theme.json"/>
-        <themeProvider id="d32e62e0-f0e1-4eab-b191-5304a2b628e1" path="/gruvbox_light_soft.theme.json"/>
-        <themeProvider id="f2de70af-bc81-47f2-a734-4c807d5ca444" path="/gruvbox_light_hard.theme.json"/>
+        <themeProvider id="054aba82-2d51-4402-b570-199e3dac3fa0" path="/gruvbox_dark_medium_islands.theme.json"/>
+        <themeProvider id="13612cfd-470b-4474-8536-f34e09721e5a" path="/gruvbox_dark_soft_islands.theme.json"/>
+        <themeProvider id="73c73716-2665-405d-bd87-c0f3ce84ca54" path="/gruvbox_dark_hard_islands.theme.json"/>
+        <themeProvider id="4f810e8b-0623-4210-b7b3-868f26dc99cd" path="/gruvbox_light_medium_islands.theme.json"/>
+        <themeProvider id="96405325-e9be-4ab6-a588-cc99c7350c03" path="/gruvbox_light_soft_islands.theme.json"/>
+        <themeProvider id="03dd9438-30cb-42ad-bd5f-de2b9dd4cccf" path="/gruvbox_light_hard_islands.theme.json"/>
     </extensions>
 
     <actions>
