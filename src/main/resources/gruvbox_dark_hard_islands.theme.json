@@ -3,6 +3,7 @@
   "dark": true,
   "author": "Vincent Parizet, Sebastian Jones",
   "editorScheme": "/gruvbox_dark_hard_islands.xml",
+  "parentTheme": "Islands Dark",
   "colors": {
     "bg0": "#282828",
     "bg0_hh": "#101415",

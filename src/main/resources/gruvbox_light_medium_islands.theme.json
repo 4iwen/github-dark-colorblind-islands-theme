@@ -3,6 +3,7 @@
   "dark": false,
   "author": "Vincent Parizet, Marius Helf, Sebastian Jones",
   "editorScheme": "/gruvbox_light_medium_islands.xml",
+  "parentTheme": "Islands Light",
   "colors": {
     "bg0": "#fbf1c7",
     "bg0_h": "#f9f5d7",
