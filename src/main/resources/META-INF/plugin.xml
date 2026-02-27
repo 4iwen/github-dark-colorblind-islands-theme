@@ -6,9 +6,7 @@
     <description><![CDATA[
     Fork from https://plugins.jetbrains.com/plugin/20558-gruvbox--theme.
 
-    gruvbox is heavily inspired by badwolf, jellybeans and solarized.
-
-    Designed as a bright theme with pastel 'retro groove' colors and light/dark mode switching in the way of solarized. The main focus when developing gruvbox is to keep colors easily distinguishable, contrast enough and still pleasant for the eyes.
+    This theme alters existing Gruv themes to use the new “Islands” parent theme.
     ]]></description>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
