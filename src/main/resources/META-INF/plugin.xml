@@ -1,12 +1,13 @@
 <idea-plugin>
-    <id>com.github.sebastian-abj.gruvbox-islands-theme</id>
-    <name>Gruvbox - Islands</name>
-    <vendor>Sebastian Jones</vendor>
+    <id>dev.aiwen.github-dark-colorblind-islands-theme</id>
+    <name>GitHub Dark Colorblind Islands</name>
+    <vendor>dev.aiwen</vendor>
 
     <description><![CDATA[
-    Fork from https://plugins.jetbrains.com/plugin/20558-gruvbox--theme.
+    GitHub Dark Colorblind inspired theme adapted for JetBrains IDEs with the Islands parent theme.
 
-    This theme alters existing Gruv themes to use the new “Islands” parent theme.
+    The palette follows GitHub's Dark Colorblind / Primer color tokens and maps success to blue,
+    danger to orange, strings to light blue, functions to purple, and variables/entities to orange.
     ]]></description>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
@@ -15,16 +16,6 @@
     <depends>com.intellij.modules.lang</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
-        <themeProvider id="054aba82-2d51-4402-b570-199e3dac3fa0" path="/gruvbox_dark_medium_islands.theme.json"/>
-        <themeProvider id="13612cfd-470b-4474-8536-f34e09721e5a" path="/gruvbox_dark_soft_islands.theme.json"/>
-        <themeProvider id="73c73716-2665-405d-bd87-c0f3ce84ca54" path="/gruvbox_dark_hard_islands.theme.json"/>
-        <themeProvider id="4f810e8b-0623-4210-b7b3-868f26dc99cd" path="/gruvbox_light_medium_islands.theme.json"/>
-        <themeProvider id="96405325-e9be-4ab6-a588-cc99c7350c03" path="/gruvbox_light_soft_islands.theme.json"/>
-        <themeProvider id="03dd9438-30cb-42ad-bd5f-de2b9dd4cccf" path="/gruvbox_light_hard_islands.theme.json"/>
+        <themeProvider id="0f1f72f4-60f4-4b84-8ee0-d6ce9449c95f" path="/github_dark_colorblind_islands.theme.json"/>
     </extensions>
-
-    <actions>
-        <!-- Add your actions here -->
-    </actions>
 </idea-plugin>

@@ -1,1 +1,1 @@
-rootProject.name = "Gruvbox - Islands"
+rootProject.name = "GitHub Dark Colorblind Islands"

@@ -1,12 +1,37 @@
-# Gruvbox Intellij IDE Theme
-![screenshot](https://plugins.jetbrains.com/files/20558/screenshot_3a50152b-2526-4dd4-b449-bf26cf0d8160)
+# GitHub Dark Colorblind Islands Theme
 
 <!-- Plugin description -->
-Fork from https://github.com/lonre/gruvbox-intellij-theme.
+GitHub Dark Colorblind inspired theme adapted for JetBrains IDEs with the Islands parent theme.
 
-gruvbox is heavily inspired by badwolf, jellybeans and solarized.
+The UI palette follows GitHub's dark colorblind / Primer tokens: `#0D1117` editor surfaces,
+`#010409` recessed panels, blue success/accent states, orange danger/severe states, and
+GitHub-style syntax colors for comments, strings, constants, functions, entities, and variables.
 
-Designed as a bright theme with pastel 'retro groove' colors and light/dark mode switching in the way of solarized.
-The main focus when developing gruvbox is to keep colors easily distinguishable, contrast enough and still pleasant for the eyes.
-This theme specifically supports the new "islands" UI elements.
+This theme specifically supports the new "Islands" UI elements.
 <!-- Plugin description end -->
+
+## Install
+
+Build the plugin ZIP and install it from disk in CLion:
+
+```sh
+./gradlew clean buildPlugin
+```
+
+Then open **Settings | Plugins | Install Plugin from Disk...** and select:
+
+```text
+build/distributions/GitHub Dark Colorblind Islands-0.1.0.zip
+```
+
+## Development
+
+The plugin identity is configured as `dev.aiwen.github-dark-colorblind-islands-theme`.
+
+Open `examples/theme_showcase.cpp` in CLion to inspect the editor colors across C++ comments,
+keywords, strings, constants, functions, classes, templates, diagnostics, and control flow.
+
+## Attribution
+
+Forked from the MIT-licensed Gruvbox Islands theme project. The icon is intentionally abstract
+and only uses this theme palette; it does not copy GitHub product marks.

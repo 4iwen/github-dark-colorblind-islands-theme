@@ -41,7 +41,7 @@ intellijPlatform {
         }
 
         changeNotes = """
-            Added island support and updated dependency versions.
+            Initial GitHub Dark Colorblind Islands theme.
         """.trimIndent()
     }
 }
