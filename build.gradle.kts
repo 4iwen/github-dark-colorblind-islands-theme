@@ -41,7 +41,7 @@ intellijPlatform {
         }
 
         changeNotes = """
-            Add a no-italic theme variant with upright comments and bold-only keywords.
+            Add light mode variants with italic and no-italic editor schemes.
         """.trimIndent()
     }
 }

@@ -4,6 +4,11 @@
 
 ## Unreleased
 
+## 0.2.0
+
+### Added
+- Add light mode theme variants with italic and no-italic editor schemes.
+
 ## 0.1.2
 
 ### Added
