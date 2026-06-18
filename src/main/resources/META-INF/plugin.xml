@@ -7,7 +7,7 @@
     GitHub Dark Colorblind inspired theme adapted for JetBrains IDEs with the Islands parent theme.
 
     The palette follows GitHub's Dark Colorblind / Primer color tokens and maps success to blue,
-    danger to orange, strings to light blue, functions to purple, and variables/entities to orange.
+    danger to orange, strings to light blue, functions and variables to purple, and entities to orange.
     ]]></description>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html

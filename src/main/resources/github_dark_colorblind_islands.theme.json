@@ -150,12 +150,12 @@
       "hoverBackground": "bg_subtle"
     },
     "FileColor": {
-      "Yellow": "#D2992222",
-      "Green": "#58A6FF22",
-      "Blue": "#58A6FF22",
-      "Violet": "#BC8CFF22",
-      "Orange": "#EC8E2C22",
-      "Rose": "#D4761622"
+      "Yellow": "#2A2418",
+      "Green": "#102A3A",
+      "Blue": "#102A44",
+      "Violet": "#241F3A",
+      "Orange": "#2B2118",
+      "Rose": "#2B1D18"
     },
     "Label": {
       "disabledForeground": "fg_subtle"

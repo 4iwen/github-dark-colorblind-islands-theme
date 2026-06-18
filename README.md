@@ -5,7 +5,7 @@ GitHub Dark Colorblind inspired theme adapted for JetBrains IDEs with the Island
 
 The UI palette follows GitHub's dark colorblind / Primer tokens: `#0D1117` editor surfaces,
 `#010409` recessed panels, blue success/accent states, orange danger/severe states, and
-GitHub-style syntax colors for comments, strings, constants, functions, entities, and variables.
+GitHub-style syntax colors for comments, strings, constants, functions, variables, and entities.
 
 This theme specifically supports the new "Islands" UI elements.
 <!-- Plugin description end -->
@@ -21,8 +21,14 @@ Build the plugin ZIP and install it from disk in CLion:
 Then open **Settings | Plugins | Install Plugin from Disk...** and select:
 
 ```text
-build/distributions/GitHub Dark Colorblind Islands-0.1.0.zip
+build/distributions/GitHub Dark Colorblind Islands-0.1.1.zip
 ```
+
+## Showcase
+
+![GitHub Dark Colorblind Islands editor syntax showcase](docs/showcase/editor-syntax.png)
+
+![GitHub Dark Colorblind Islands stream and control-flow showcase](docs/showcase/editor-streams.png)
 
 ## Development
 

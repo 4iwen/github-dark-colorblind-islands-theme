@@ -41,7 +41,8 @@ intellijPlatform {
         }
 
         changeNotes = """
-            Initial GitHub Dark Colorblind Islands theme.
+            Align variable-like symbols with function purple, soften file-color tab backgrounds,
+            and add editor screenshots for the README showcase.
         """.trimIndent()
     }
 }

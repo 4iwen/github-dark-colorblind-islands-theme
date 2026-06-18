@@ -158,6 +158,7 @@ int main() try {
 
     ghcb::demo::render_table(rows);
     ghcb::demo::demonstrate_control_flow(Severity::warning);
+    std::cout << "Hello" << std::endl;
 
     const std::string raw_json = R"json({
       "editor.background": "#0D1117",
