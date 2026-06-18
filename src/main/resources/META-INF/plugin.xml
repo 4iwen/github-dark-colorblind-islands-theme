@@ -8,6 +8,7 @@
 
     The palette follows GitHub's Dark Colorblind / Primer color tokens and maps success to blue,
     danger to orange, strings to light blue, functions and variables to purple, and entities to orange.
+    Includes a no-italic variant for users who prefer upright comments and bold-only keywords.
     ]]></description>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
@@ -17,5 +18,6 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="0f1f72f4-60f4-4b84-8ee0-d6ce9449c95f" path="/github_dark_colorblind_islands.theme.json"/>
+        <themeProvider id="5481a562-b693-4001-970f-f19a7548d7fa" path="/github_dark_colorblind_islands_no_italic.theme.json"/>
     </extensions>
 </idea-plugin>

@@ -41,8 +41,7 @@ intellijPlatform {
         }
 
         changeNotes = """
-            Align variable-like symbols with function purple, soften file-color tab backgrounds,
-            and add editor screenshots for the README showcase.
+            Add a no-italic theme variant with upright comments and bold-only keywords.
         """.trimIndent()
     }
 }

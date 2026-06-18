@@ -4,6 +4,11 @@
 
 ## Unreleased
 
+## 0.1.2
+
+### Added
+- Add a no-italic theme variant with upright comments and bold-only keywords.
+
 ## 0.1.1
 
 ### Changed
