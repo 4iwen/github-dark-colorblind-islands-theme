@@ -199,9 +199,32 @@
       "buttonPressedBackground": "bg_muted"
     },
     "Popup": {
+      "background": "bg_inset",
+      "borderColor": "border_default",
+      "Toolbar": {
+        "background": "bg_inset"
+      },
+      "Advertiser": {
+        "background": "bg_subtle",
+        "borderColor": "border_muted",
+        "foreground": "fg_muted"
+      },
       "Header": {
         "activeBackground": "bg_subtle",
         "inactiveBackground": "bg_subtle"
+      }
+    },
+    "CompletionPopup": {
+      "background": "bg_inset",
+      "foreground": "fg_muted",
+      "matchForeground": "accent_fg",
+      "selectionBackground": "bg_muted",
+      "selectionInactiveBackground": "bg_subtle",
+      "nonFocusedMask": "#01040900",
+      "Advertiser": {
+        "background": "bg_subtle",
+        "borderColor": "border_muted",
+        "foreground": "fg_muted"
       }
     },
     "SearchEverywhere": {

@@ -41,7 +41,7 @@ intellijPlatform {
         }
 
         changeNotes = """
-            Add light mode variants with italic and no-italic editor schemes.
+            Fix dark completion popup colors so suggestions match the GitHub dark palette.
         """.trimIndent()
     }
 }

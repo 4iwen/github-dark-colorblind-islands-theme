@@ -4,6 +4,11 @@
 
 ## Unreleased
 
+## 0.2.1
+
+### Fixed
+- Match the dark completion popup body, selection, and advertiser colors to the GitHub dark palette.
+
 ## 0.2.0
 
 ### Added

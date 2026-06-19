@@ -22,7 +22,7 @@ Build the plugin ZIP and install it from disk in CLion:
 Then open **Settings | Plugins | Install Plugin from Disk...** and select:
 
 ```text
-build/distributions/GitHub Dark Colorblind Islands-0.2.0.zip
+build/distributions/GitHub Dark Colorblind Islands-0.2.1.zip
 ```
 
 ## Variants
