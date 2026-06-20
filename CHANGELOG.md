@@ -4,6 +4,12 @@
 
 ## Unreleased
 
+## 0.2.2
+
+### Fixed
+- Match main toolbar icon and run widget hover backgrounds to the GitHub palette in all variants.
+- Match dark toolbar context menus to the rest of the GitHub dark UI.
+
 ## 0.2.1
 
 ### Fixed

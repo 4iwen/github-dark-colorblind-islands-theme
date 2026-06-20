@@ -41,7 +41,7 @@ intellijPlatform {
         }
 
         changeNotes = """
-            Fix dark completion popup colors so suggestions match the GitHub dark palette.
+            Fix main toolbar hover surfaces and dark context menu backgrounds.
         """.trimIndent()
     }
 }

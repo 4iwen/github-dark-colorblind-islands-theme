@@ -176,7 +176,19 @@
     },
     "MainToolbar": {
       "background": "bg_default",
-      "borderColor": "#FFFFFF00"
+      "inactiveBackground": "bg_default",
+      "borderColor": "#FFFFFF00",
+      "Dropdown": {
+        "background": "bg_default",
+        "hoverBackground": "line_highlight",
+        "transparentHoverBackground": "line_highlight",
+        "pressedBackground": "bg_muted"
+      },
+      "Icon": {
+        "background": "bg_default",
+        "hoverBackground": "line_highlight",
+        "pressedBackground": "bg_muted"
+      }
     },
     "MenuBar": {
       "background": "bg_default",
@@ -287,6 +299,10 @@
       "selectionForeground": "fg_default",
       "selectionInactiveBackground": "bg_subtle",
       "hoverBackground": "line_highlight"
+    },
+    "RunWidget": {
+      "hoverBackground": "line_highlight",
+      "pressedBackground": "bg_muted"
     }
   },
   "icons": {

@@ -176,12 +176,56 @@
     },
     "MainToolbar": {
       "background": "bg_default",
-      "borderColor": "#FFFFFF00"
+      "inactiveBackground": "bg_default",
+      "borderColor": "#FFFFFF00",
+      "Dropdown": {
+        "background": "bg_default",
+        "hoverBackground": "line_highlight",
+        "transparentHoverBackground": "line_highlight",
+        "pressedBackground": "bg_muted"
+      },
+      "Icon": {
+        "background": "bg_default",
+        "hoverBackground": "line_highlight",
+        "pressedBackground": "bg_muted"
+      }
     },
     "MenuBar": {
       "background": "bg_default",
       "foreground": "fg_default",
       "borderColor": "#FFFFFF00"
+    },
+    "Menu": {
+      "background": "bg_default",
+      "foreground": "fg_default",
+      "selectionBackground": "bg_muted",
+      "selectionForeground": "fg_default",
+      "separatorColor": "border_muted",
+      "borderColor": "border_default"
+    },
+    "MenuItem": {
+      "background": "bg_default",
+      "foreground": "fg_default",
+      "selectionBackground": "bg_muted",
+      "selectionForeground": "fg_default",
+      "disabledBackground": "bg_default",
+      "disabledForeground": "fg_subtle"
+    },
+    "CheckBoxMenuItem": {
+      "background": "bg_default",
+      "foreground": "fg_default",
+      "selectionBackground": "bg_muted",
+      "selectionForeground": "fg_default",
+      "disabledBackground": "bg_default",
+      "disabledForeground": "fg_subtle"
+    },
+    "RadioButtonMenuItem": {
+      "background": "bg_default",
+      "foreground": "fg_default",
+      "selectionBackground": "bg_muted",
+      "selectionForeground": "fg_default",
+      "disabledBackground": "bg_default",
+      "disabledForeground": "fg_subtle"
     },
     "NavBar": {
       "background": "bg_default",
@@ -199,10 +243,10 @@
       "buttonPressedBackground": "bg_muted"
     },
     "Popup": {
-      "background": "bg_inset",
+      "background": "bg_default",
       "borderColor": "border_default",
       "Toolbar": {
-        "background": "bg_inset"
+        "background": "bg_default"
       },
       "Advertiser": {
         "background": "bg_subtle",
@@ -213,6 +257,13 @@
         "activeBackground": "bg_subtle",
         "inactiveBackground": "bg_subtle"
       }
+    },
+    "PopupMenu": {
+      "background": "bg_default",
+      "foreground": "fg_default",
+      "selectionBackground": "bg_muted",
+      "selectionForeground": "fg_default",
+      "translucentBackground": "bg_default"
     },
     "CompletionPopup": {
       "background": "bg_inset",
@@ -310,6 +361,10 @@
       "selectionForeground": "fg_default",
       "selectionInactiveBackground": "bg_subtle",
       "hoverBackground": "line_highlight"
+    },
+    "RunWidget": {
+      "hoverBackground": "line_highlight",
+      "pressedBackground": "bg_muted"
     }
   },
   "icons": {
